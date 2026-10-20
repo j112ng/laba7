@@ -31,7 +31,7 @@ int main()
     case '/':
     
         if (y == 0) {
-            printf("Ошибка: деление на ноль!\n");
+            printf("Ошибка\n");
         }
         else {
             printf("=%f\n", x / y);
